@@ -1,0 +1,228 @@
+createTime: '2022-04-19T04:53:53Z'
+endTime: '2022-04-19T05:47:55Z'
+etag: 0v5iUyLLOMo=
+jobId: MLFarePrediction_0419_0453
+jobPosition: '0'
+startTime: '2022-04-19T04:53:58Z'
+state: SUCCEEDED
+trainingInput:
+  hyperparameters:
+    enableTrialEarlyStopping: true
+    goal: MINIMIZE
+    hyperparameterMetricTag: nyc_fare
+    maxParallelTrials: 3
+    maxTrials: 15
+    params:
+    - maxValue: 10.0
+      minValue: 4.0
+      parameterName: max_depth
+      type: INTEGER
+    - maxValue: 2.0
+      minValue: 0.2
+      parameterName: reg_lambda
+      scaleType: UNIT_LINEAR_SCALE
+      type: DOUBLE
+    - maxValue: 8.0
+      minValue: 1.0
+      parameterName: n_estimators
+      type: INTEGER
+    - maxValue: 0.5
+      minValue: 0.05
+      parameterName: learning_rate
+      type: DOUBLE
+  jobDir: gs://ml-fare-prediction-347604/
+  masterType: standard
+  packageUris:
+  - gs://ml-fare-prediction-347604/packages/f723579e9c7a00f3d267512d71b2da7a2e5de3c2e83f0b4583a2223910aaa501/ai_platform_trainer-0.1.tar.gz
+  pythonModule: ai_platform_trainer.train
+  pythonVersion: '3.7'
+  region: us-east1
+  runtimeVersion: '2.8'
+  scaleTier: CUSTOM
+  workerType: standard
+trainingOutput:
+  completedTrialCount: '15'
+  consumedMLUnits: 0.97
+  hyperparameterMetricTag: nyc_fare
+  isHyperparameterTuningJob: true
+  trials:
+  - endTime: '2022-04-19T05:22:05Z'
+    finalMetric:
+      objectiveValue: 3.82766
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.27689833494155752'
+      max_depth: '10'
+      n_estimators: '3'
+      reg_lambda: '0.2'
+    startTime: '2022-04-19T05:13:49.918891857Z'
+    state: SUCCEEDED
+    trialId: '7'
+  - endTime: '2022-04-19T05:46:48Z'
+    finalMetric:
+      objectiveValue: 3.91197
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.27295203508474369'
+      max_depth: '10'
+      n_estimators: '2'
+      reg_lambda: '0.2253361509572645'
+    startTime: '2022-04-19T05:38:32.696799673Z'
+    state: SUCCEEDED
+    trialId: '14'
+  - endTime: '2022-04-19T05:46:48Z'
+    finalMetric:
+      objectiveValue: 3.96069
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.27907545641791631'
+      max_depth: '10'
+      n_estimators: '4'
+      reg_lambda: '0.2'
+    startTime: '2022-04-19T05:38:32.696592391Z'
+    state: SUCCEEDED
+    trialId: '13'
+  - endTime: '2022-04-19T05:02:19Z'
+    finalMetric:
+      objectiveValue: 4.00544
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.275'
+      max_depth: '7'
+      n_estimators: '5'
+      reg_lambda: '1.1'
+    startTime: '2022-04-19T04:54:03.794141842Z'
+    state: SUCCEEDED
+    trialId: '1'
+  - endTime: '2022-04-19T05:34:24Z'
+    finalMetric:
+      objectiveValue: 4.03695
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.29544467299302579'
+      max_depth: '8'
+      n_estimators: '3'
+      reg_lambda: '2'
+    startTime: '2022-04-19T05:26:08.648091815Z'
+    state: SUCCEEDED
+    trialId: '10'
+  - endTime: '2022-04-19T05:12:14Z'
+    finalMetric:
+      objectiveValue: 4.05684
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.22809669428646046'
+      max_depth: '9'
+      n_estimators: '4'
+      reg_lambda: '0.68580765990444315'
+    startTime: '2022-04-19T05:03:59.643630391Z'
+    state: SUCCEEDED
+    trialId: '6'
+  - endTime: '2022-04-19T05:12:15Z'
+    finalMetric:
+      objectiveValue: 4.1424
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.3811848925990301'
+      max_depth: '9'
+      n_estimators: '5'
+      reg_lambda: '0.73309958705061939'
+    startTime: '2022-04-19T05:03:59.643446159Z'
+    state: SUCCEEDED
+    trialId: '4'
+  - endTime: '2022-04-19T05:34:24Z'
+    finalMetric:
+      objectiveValue: 4.14295
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.29165492583508107'
+      max_depth: '10'
+      n_estimators: '6'
+      reg_lambda: '0.2'
+    startTime: '2022-04-19T05:26:08.648272616Z'
+    state: SUCCEEDED
+    trialId: '11'
+  - endTime: '2022-04-19T05:12:15Z'
+    finalMetric:
+      objectiveValue: 4.23017
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.34889812211274474'
+      max_depth: '5'
+      n_estimators: '7'
+      reg_lambda: '1.2553907225404917'
+    startTime: '2022-04-19T05:03:59.643567623Z'
+    state: SUCCEEDED
+    trialId: '5'
+  - endTime: '2022-04-19T05:46:48Z'
+    finalMetric:
+      objectiveValue: 4.23153
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.27510644984986687'
+      max_depth: '9'
+      n_estimators: '4'
+      reg_lambda: '0.29922279081781811'
+    startTime: '2022-04-19T05:38:32.696881688Z'
+    state: SUCCEEDED
+    trialId: '15'
+  - endTime: '2022-04-19T05:22:46Z'
+    finalMetric:
+      objectiveValue: 4.28386
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.2635632344988344'
+      max_depth: '4'
+      n_estimators: '4'
+      reg_lambda: '0.723135465940945'
+    startTime: '2022-04-19T05:13:49.919196639Z'
+    state: SUCCEEDED
+    trialId: '9'
+  - endTime: '2022-04-19T05:22:06Z'
+    finalMetric:
+      objectiveValue: 4.47139
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.25669965066729011'
+      max_depth: '7'
+      n_estimators: '8'
+      reg_lambda: '1.6711084925231674'
+    startTime: '2022-04-19T05:13:49.919104928Z'
+    state: SUCCEEDED
+    trialId: '8'
+  - endTime: '2022-04-19T05:34:24Z'
+    finalMetric:
+      objectiveValue: 4.56116
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.25900807185222424'
+      max_depth: '10'
+      n_estimators: '1'
+      reg_lambda: '0.2'
+    startTime: '2022-04-19T05:26:08.648378330Z'
+    state: SUCCEEDED
+    trialId: '12'
+  - endTime: '2022-04-19T05:02:19Z'
+    finalMetric:
+      objectiveValue: 4.72782
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.17982698004960462'
+      max_depth: '7'
+      n_estimators: '4'
+      reg_lambda: '1.4792690154085877'
+    startTime: '2022-04-19T04:54:03.794286204Z'
+    state: SUCCEEDED
+    trialId: '2'
+  - endTime: '2022-04-19T05:02:19Z'
+    finalMetric:
+      objectiveValue: 5.39748
+      trainingStep: '1'
+    hyperparameters:
+      learning_rate: '0.12551232548342908'
+      max_depth: '6'
+      n_estimators: '6'
+      reg_lambda: '1.8811739811886019'
+    startTime: '2022-04-19T04:54:03.794362233Z'
+    state: SUCCEEDED
+    trialId: '3'

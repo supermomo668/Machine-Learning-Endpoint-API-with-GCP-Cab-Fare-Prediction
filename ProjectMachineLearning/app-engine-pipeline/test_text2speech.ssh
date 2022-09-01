@@ -1,0 +1,4 @@
+curl -s -G localhost:5000/textToSpeech --data-urlencode text="I would like to go from the Cooper Union to the Juilliard School" |\
+    jq .speech |\
+    tr -d '"' |\
+    base64 -D > ./test_dataset/converted_text_to_speech.wav

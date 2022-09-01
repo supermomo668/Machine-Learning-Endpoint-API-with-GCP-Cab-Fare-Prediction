@@ -1,0 +1,3 @@
+cat the_cooper_union_the_juilliard_school.wav |\
+    base64 |\
+    curl -s -H "Content-Type: application/octet-stream" --data @- localhost:5000/speechToText | jq

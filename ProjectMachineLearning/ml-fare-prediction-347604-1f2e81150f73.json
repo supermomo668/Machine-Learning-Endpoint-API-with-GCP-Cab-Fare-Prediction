@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ml-fare-prediction-347604",
+  "private_key_id": "1f2e81150f73d854888c73f663dba5faba3b7f96",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDSewZZ+WzECDif\n8LlZLmKUxMYRPqHKenE7iDGFgcvHJCgIbwnDNxbB9lfrun993+68dS3t//buCxUk\nFrrY1McePryOC1T+bXAdQTbu4auXeqKLT6ZL0kw3As4QKxkHRlqVroo7R9BJ00uk\nHknbHOkIdFBWwgwoKfBqZHLTQAvdZQoUOBGHJSVdIOAOY1j3Re6pV9auU5hOzrWC\nVQpFDL34Kn04gbIlnei2YDUYItLEvDzerJ/OBF1dXRvdrh9DNmOVM0zRreh430N8\nKDqX5SUi//OE+KKb3+gyV4+Vgj9iJHnPcZZmegajjj8sAaH7Jcv2Ab6mvUZ/8bJT\nf628ZRuJAgMBAAECggEAAzLsNuobQMlMs1lCjI7Pn/9JG4TniyxMTq6xrPvQO8Bf\n4jfuJAMbyQ/MHd4C4cgpXgB3Fcd2qpRtH57U+7u+eSYph2GioC7MM0pKUiazIk1d\nIs+k4VZgAukw9fkyYKRNYboU6aom3zZd72USnjOcvZHcpjg9sc8TCLTqiK16o1nb\n5mo0Uv4JZZDzFPA9IcOkh+nWfO/1Ez40TbUbSyJk1VPN2CLsIlguHjy7VJy/NyC/\nzr9zKBeU1Z2oAbE7jFyLFfTC1n07ewRx35pDspKMhUWrCkvtJoNJj0Tsq9xtuMGl\nBLjUYGu+Y6XG8A453Zw4yc0V7Ix0nuiJGdTkEcft0QKBgQD8HnM/N+IuCMoRMT0y\nURmcY+nAxsHZ7H7OGrp08RHlZdWuKmyX0SqfNpSYO9rBp+MV9nS4oQfuzkHjwyzy\nB8ZdeYO1aMVNKao5vTejwiHf2E8+03TxGgzl+DbqgTEXddiabKaC8bFXhmSicysu\naWt7MEAXCSG3WLBAVxlJvekNkQKBgQDVuHx2lutlAa7qkJqdhNRbNaV/hYKDH0bM\ny0DXV0tasaxrFy5LxO61OK7XbPDiyQxbm2v7+7z6aVPAv0bjw+lkdz6vbh3ZY88l\n5gOKw9YzqDetblhYlYNFmAoQYrw0LiCPDHl4FA+YPDVLlyMVkznatb8nvIYFx8l9\noPJcqvGSeQKBgQCOxsfJU2J5Y2zbk6Dub9MrJ8Hm9Cgvu6iMG8LgGu1hlewOt+PL\njh6vD3/TPoJCDUui0nGDZV5StOfHjm5TmmeR5BDcmTqy2heWnzt1N6lrVNp739Bo\nAbKwQYMIBqXAfXJu8XzSxwEBahBvlv0rSXQezVJeOUOoy0b1CN4/Tpc+oQKBgQCY\n5FYF8ImNxNqBa9lwfqn8ZjBzPevUKffYYj+MziJWS2zxX6/6/HNYqahK7OCXHQT+\nM/3YUosrCValOTFZl7nL6ZKqpbgs4L48eoRmLRt78QeDxsDk/nDexJnOhxPksGsS\navYq9Q8C9W+bGBA9SwnEcOjDYJbwY7C9cvpvWMtg4QKBgQCrfydL7IXM1rAy4Z40\nm0soLxLoDW4bNknkokZNw+anVYh9tK34umfw2SJJ5h8QzwEv/8BeeyGG8/KlIEwC\nPHGhnXk9Psy7eDw6bZ9RgkBRhSikOxyN/WfZg+pANTUm3QnmINq7E7lfN134OUh9\n2ENnMTdAdMa4TKRxrBGhuOvslQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "p6-ml-fare-prediction@ml-fare-prediction-347604.iam.gserviceaccount.com",
+  "client_id": "118260039791260426546",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/p6-ml-fare-prediction%40ml-fare-prediction-347604.iam.gserviceaccount.com"
+}
